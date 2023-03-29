@@ -26,6 +26,8 @@
   font-size: 16px;
   top: -34px;
 }
+
+
 body {
   font-family: arial, sans-serif;
 }
@@ -50,5 +52,8 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+}
+
+li.firstletter {
   text-transform: capitalize;
 }
