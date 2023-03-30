@@ -5,6 +5,7 @@
   border: 1px solid #dadde1;
   border-radius: 5px;
   margin-bottom: 0px;
+  background-color: #f9f7fd;
 }
 .app-wrapper {
   max-width: 600px;
@@ -31,7 +32,7 @@
   color: rgb(33, 33, 33);
   cursor: default;
   text-decoration: none;
-   position: relative;
+  position: relative;
   font-size: 16px;
   top: -34px;
 }
@@ -49,7 +50,6 @@
   color: black;
   font-size: 16px;
   opacity: 0.5;
-
 }
 
 .weather-forecast-temperature {
@@ -57,9 +57,14 @@
   color: black;
 }
 
-.weather-forecast-temperature-min{
+.weather-forecast-temperature-min {
   opacity: 0.5;
 }
+
+#icon:hover {
+  transform: scale(2);
+}
+
 body {
   font-family: arial, sans-serif;
 }

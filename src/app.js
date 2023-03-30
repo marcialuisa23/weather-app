@@ -63,7 +63,6 @@ function handleSubmit(event) {
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-
 search("London");
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
@@ -78,9 +77,9 @@ function displayForecast(response) {
 
   forecast.forEach(function (forecastDay, index) {
     if (index < 6) {
-    forecastHTML =
-      forecastHTML +
-      `<div class="col-2">
+      forecastHTML =
+        forecastHTML +
+        `<div class="col-2">
                 <div class="weather-forecast-date">${formatDay(
                   forecastDay.time
                 )}</div>
@@ -98,7 +97,8 @@ function displayForecast(response) {
                   )}° </span>
                   
                 </div>
-    </div>`;}
+    </div>`;
+    }
   });
   forecastHTML = forecastHTML + `</div>`;
   forecastElement.innerHTML = forecastHTML;
