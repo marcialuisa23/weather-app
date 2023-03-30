@@ -22,11 +22,7 @@
   line-height: 1;
   font-weight: 400;
 }
-.weather-temperature .units {
-  position: relative;
-  font-size: 16px;
-  top: -34px;
-}
+
 #weather-description {
   text-transform: capitalize;
 }
@@ -35,6 +31,9 @@
   color: rgb(33, 33, 33);
   cursor: default;
   text-decoration: none;
+   position: relative;
+  font-size: 16px;
+  top: -34px;
 }
 
 .weather-temperature .active:hover {
